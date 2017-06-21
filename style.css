@@ -1,0 +1,21 @@
+.fancy {
+	background: url("http://orig14.deviantart.net/97f8/f/2012/208/b/1/fancy_squirrely_squirrel_by_arseniic-d58seqp.png");
+}
+
+.fun {
+	background: url("http://epilepsyassociation.com/files/2016/01/FUN.gif");
+}
+
+.joy {
+	background: url("http://images.clipartpanda.com/joy-clipart-happyjoy.png");
+}
+
+.fancy, .fun, .joy {
+	height: 200px;
+	width: 200px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	float: left;
+	display: inline-block;
+}
